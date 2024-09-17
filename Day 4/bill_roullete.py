@@ -9,6 +9,6 @@ print(f"{random.choice(friends)} will pay the bill at this time!!")
 
 
 # 2nd option
-roullete = random.randint(0,len(friends))
+roullete = random.randint(0,(len(friends)-1))
 
 print(f"{friends[roullete]} will pay the bill at this time!!")
